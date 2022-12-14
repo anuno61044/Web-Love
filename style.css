@@ -1,0 +1,81 @@
+.index-body{
+    background-image: url(Pictures/2b2be3448f6def61c4e829a1502dd48b.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#eventos{
+    background-color: rgba(0, 0, 0, 0);
+    padding: 2cm;
+    padding-top: 12cm;
+}
+
+.nav-link{
+    padding: 0px;
+}
+
+
+
+
+.target{
+    background-image: url(Pictures/marco.png);
+    background-size: 100% 100%;
+    background-color: rgba(220, 20, 27, 0);
+    padding: 0.5cm;
+    border-radius: 10px;
+}
+
+.img{
+    border-radius: 10px;
+}
+
+#body-galery{
+    background-image: url(Pictures/fondo.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: beige;
+}
+
+
+.header1{
+    font-size: 1cm;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    text-shadow: 2px 2px rgb(233, 44, 23);
+}
+
+#carta1, #carta2{
+    position: fixed;
+    float: right;
+    margin-top: 4cm;
+    margin-left: 2cm;
+    animation: animate 0.5s linear infinite;
+}
+
+.modal-content, .modal-body{
+    background-image: url(Pictures/papel\ del\ pergamino.jpg);
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+
+@keyframes animate{
+    0%{
+        transform: rotate(5deg);
+    }
+    25%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(-5deg);
+    }
+    75%{
+        transform: rotate(0deg);
+    }
+}
